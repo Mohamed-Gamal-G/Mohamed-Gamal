@@ -7,6 +7,15 @@ export default function Home() {
     <>
       <Head />
       <title>Mohamed Gamal</title>
+      <meta name="description" about="Mohamed Gamal frontend"/>
+      <meta name="description" about="Hello, I'm Mohamed"/>
+      <meta name="description" about="make your amazing Website"/>
+      <meta property="og:title" about="Front End Developer"/>
+      <meta property="og:title" about="Mohamed Gamal"/>
+      <meta property="og:title" about="Mohamed Gamal frontend"/>
+      <meta name="keywords" content="frontend FrontEnd Mohamed Gamal"/>
+      <meta name="authro" content="Mohamed Gamal"/>
+      <link rel="icon" href="favicon.ico"/>
     <Navbar/>
     <div className='Home_continer'>
       <div className="loader">
@@ -74,7 +83,6 @@ export default function Home() {
     </>
   )
 }
-
 /* npm run build */
 /* npm install --global serve */
 /* npm install --global surge */
@@ -85,7 +93,6 @@ export default function Home() {
 /* Mohamed_Gamal1.surge.sh */
 
 /* ريأكت بالعربى - كيفية رفع المشروع [Build / Deploy React Project]
-
 codeZone */
 /* https://cyborg.surge.sh/ */
 /* mohamed-gamal.surge.sh */

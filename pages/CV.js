@@ -2,11 +2,23 @@ import Navbar from '@/Components/Navbar'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
 import Imgc from "../public/mohamed.jpg";
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] })
 export default function CV() {
   return (
     <>
+    <Head />
+      <title>Mohamed Gamal</title>
+      <meta name="description" about="Mohamed Gamal frontend"/>
+      <meta name="description" about="Hello, I'm Mohamed"/>
+      <meta name="description" about="make your amazing Website"/>
+      <meta property="og:title" about="Front End Developer"/>
+      <meta property="og:title" about="Mohamed Gamal"/>
+      <meta property="og:title" about="Mohamed Gamal frontend"/>
+      <meta name="keywords" content="frontend FrontEnd Mohamed Gamal"/>
+      <meta name="authro" content="Mohamed Gamal"/>
+      <link rel="icon" href="favicon.ico"/>
     <Navbar/>
       <title>Mohamed Gamal</title>
     <div className="body">
